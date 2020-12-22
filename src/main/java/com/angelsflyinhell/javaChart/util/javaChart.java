@@ -28,6 +28,7 @@ public class javaChart {
 
         chart.getStyler().setAntiAlias(true);
         chart.getStyler().setSeriesColors(colors);
+        chart.getStyler().setPlotGridVerticalLinesVisible(false);
 
         chart.getStyler().setLegendPosition(Styler.LegendPosition.InsideNE);
 
